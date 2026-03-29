@@ -23,7 +23,20 @@
         "prev": "a.back",
         "next": "a.next"
       }
+    },
+{
+      "name": "WikiDich",
+      "baseUrl": "https://wikicv.net",
+      "jsUrl": "https://raw.githubusercontent.com/18200245/AppAndroid/refs/heads/master/wikidich/wikidich.js",
+      "selectors": {
+        "title": "#bookContent > p:nth-child(1)",
+        "chapter": "#bookContent > p:nth-child(2)",
+        "content": "#bookContentBody",
+        "prev": "#bookContent > div.center.ankhinho > span > a:nth-child(1)",
+        "next": "#bookContent > div.center.ankhinho > span > a:nth-child(3)"
+      }
     }
+
 
   ]
 }
