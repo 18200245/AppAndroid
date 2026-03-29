@@ -1,0 +1,11 @@
+function isChapterPage(url) {
+    return url.includes('/chuong-');
+}
+
+function parseContent(html) {
+    // html là nội dung bên trong tag contentSelector
+    // Bạn có thể dùng Regex để dọn rác
+    let clean = html.replace(/<script.*?>.*?<\/script>/g, "");
+    // Trả về text sạch
+    return clean; 
+}

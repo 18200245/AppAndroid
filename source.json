@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "name": "TruyenFull",
+      "baseUrl": "https://truyenfull.vision",
+      "jsUrl": "https://raw.githubusercontent.com/18200245/AppAndroid/refs/heads/main/truyenfull.json",
+      "selectors": {
+        "title": "a.truyen-title",
+        "chapter": "a.chapter-title",
+        "content": "div#chapter-c",
+        "prev": "a#prev_chap",
+        "next": "a#next_chap"
+      }
+    },
+	{
+      "name": "Wattpad",
+      "baseUrl": "https://www.wattpad.com.vn",
+      "jsUrl": "https://raw.githubusercontent.com/18200245/AppAndroid/refs/heads/main/wattpad.json",
+      "selectors": {
+        "title": "h1 > a",
+        "chapter": "h2 > a",
+        "content": "div.truyen",
+        "prev": "a.back",
+        "next": "a.next"
+      }
+    }
+
+  ]
+}
