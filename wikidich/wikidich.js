@@ -1,5 +1,5 @@
 function isChapterPage(url) {
-    return url.includes('/chuong-');
+    return url.includes('/trang-');
 }
 
 function parseContent(html) {
