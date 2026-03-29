@@ -3,7 +3,7 @@
     {
       "name": "TruyenFull",
       "baseUrl": "https://truyenfull.vision",
-      "jsUrl": "https://raw.githubusercontent.com/18200245/AppAndroid/refs/heads/main/truyenfull.json",
+      "jsUrl": "https://raw.githubusercontent.com/18200245/AppAndroid/refs/heads/master/truyenfull/truyenfull.json",
       "selectors": {
         "title": "a.truyen-title",
         "chapter": "a.chapter-title",
@@ -15,7 +15,7 @@
 	{
       "name": "Wattpad",
       "baseUrl": "https://www.wattpad.com.vn",
-      "jsUrl": "https://raw.githubusercontent.com/18200245/AppAndroid/refs/heads/main/wattpad.json",
+      "jsUrl": "https://raw.githubusercontent.com/18200245/AppAndroid/refs/heads/master/wattpadcomvn/wattpad.json",
       "selectors": {
         "title": "h1 > a",
         "chapter": "h2 > a",
