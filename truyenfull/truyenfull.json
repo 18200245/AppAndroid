@@ -15,5 +15,5 @@ function parseContent(html) {
         .map(t => t.trim())
         .filter(Boolean);
 
-    return paragraphs.join("/n/n");
+    return paragraphs.join("\n\n");
 }
