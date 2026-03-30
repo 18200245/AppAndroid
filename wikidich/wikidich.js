@@ -1,5 +1,5 @@
 function isChapterPage(url) {
-     const path = new URL(url).pathname
+const path = new URL(url).pathname
     .split('/')
     .filter(Boolean)
 
