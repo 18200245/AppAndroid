@@ -1,6 +1,14 @@
+const { URL } = require('url')
+
+
 function isChapterPage(url) {
-return true
+const path = new URL(url).pathname
+    .split('/')
+    .filter(Boolean)
+
+  return path.length === 3
 }
+
 
 function parseContent(html) {
     html = html
