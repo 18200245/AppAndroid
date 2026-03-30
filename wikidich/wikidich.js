@@ -1,9 +1,5 @@
 function isChapterPage(url) {
-const path = new URL(url).pathname
-    .split('/')
-    .filter(Boolean)
-
-  return path.length === 3
+return true
 }
 
 function parseContent(html) {
