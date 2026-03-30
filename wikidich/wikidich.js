@@ -1,6 +1,3 @@
-const { URL } = require('url')
-
-
 function isChapterPage(url) {
 const path = new URL(url).pathname
     .split('/')
