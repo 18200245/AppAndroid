@@ -1,5 +1,9 @@
 function isChapterPage(url) {
-    return url.includes('/trang-');
+     const path = new URL(url).pathname
+    .split('/')
+    .filter(Boolean)
+
+  return path.length === 3
 }
 
 function parseContent(html) {
