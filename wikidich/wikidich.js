@@ -1,9 +1,12 @@
 function isChapterPage(url) {
-const path = new URL(url).pathname
-    .split('/')
-    .filter(Boolean)
+    try {
+        var path = url.replace(/^https?:\/\/[^\/]+/, '');
+        var segments = path.split('/').filter(function(s){ return s.length > 0 });
 
-  return path.length === 3
+        return segments.length === 3;
+    } catch(e) {
+        return false;
+    }
 }
 
 
